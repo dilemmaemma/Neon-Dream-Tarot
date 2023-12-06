@@ -46,7 +46,7 @@ function Footer() {
                     <p
                         key={index}
                         style={{ color: 'white', cursor: 'pointer' }}
-                        onClick={() => openContact()}
+                        onClick={openContact}
                     >
                         Contact
                     </p>
